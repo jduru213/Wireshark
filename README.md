@@ -9,7 +9,11 @@ This repository is a collection of hands-on projects utilizing Wireshark to scan
 
 ## Project Details
 
-1. The goal of this project is to demonstrate the process of capturing login credentials using Wireshark and Netsniff-ng in Kali Linux. This hands-on exercise aims to dissect the dynamics of network traffic analysis and security. In this project, I explored the process of capturing login credentials using Wireshark and Netsniff-ng in Kali Linux. It was a hands-on experience aimed at deepening my understanding of network traffic analysis and security practices.
+1. Capture Login Credentials using Wireshark & Netsniff-ng in Kali Linux
+
+Description: 
+
+3. In this project, I explored the process of capturing login credentials using Wireshark and Netsniff-ng in Kali Linux. It was a hands-on experience aimed at deepening my understanding of network traffic analysis and security practices.
 
 ### Resources Used
 
