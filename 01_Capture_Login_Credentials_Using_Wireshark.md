@@ -47,16 +47,17 @@ While Netsniff is running in the background, open your web browser on Kali:
 
 ## Step 4: Configuring Wireshark and open .pcap file 
 -  Now, stop capturing packets by clicking Ctrl + C and see how many packets you generated
+
 -  Generated 2704 packets
-- 
+  
   ![image](https://github.com/jduru213/Wireshark-HomeLabs/assets/112328773/96051a91-eac6-4fbe-a03b-d546e0589092)
 
 -  Go back to your Kali linux terminal run the "ls" command and find your .pcap file
-- 
+  
  ![image](https://github.com/jduru213/Wireshark-HomeLabs/assets/112328773/217fa474-9e23-4d75-afb7-cfc04a936678)
 
 
--  Run Wireshark by typing in "Wireshark" in your kali terminal
+-  Run Wireshark by typing in "Wireshark" in your kali terminal:
   
   ![image](https://github.com/jduru213/Wireshark-HomeLabs/assets/112328773/e5a3b83b-a0ca-4500-919d-5f09121ab8e2)
   ![image](https://github.com/jduru213/Wireshark-HomeLabs/assets/112328773/9d56626f-98b8-4a73-8168-7a29916d187d)
@@ -76,9 +77,13 @@ P.S Most websites will not transfer data through HTTP since it is unencrypted an
 
 - First, let's type in "HTTP" in the search bar to filter out the network protocol
   ![image](https://github.com/jduru213/Wireshark-HomeLabs/assets/112328773/6662a79a-9696-4e46-bb66-619fd3dd1730)
+  
 - Now,
+  
   ![image](https://github.com/jduru213/Wireshark-HomeLabs/assets/112328773/3b40e100-b4c9-45fa-b818-06ee75a2ae0a)
+  
 - Lastly,
+  
   ![image](https://github.com/jduru213/Wireshark-HomeLabs/assets/112328773/9a7997b9-416c-4c2a-b885-baf5b5dded56)
 
 To conclude, 
