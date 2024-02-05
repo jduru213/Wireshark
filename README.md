@@ -1,36 +1,15 @@
 
 ## Project Overview: Wireshark-HomeLabs
 
+This repository is a collection of hands-on projects utilizing Wireshark to scan networks and analyze packets
 
 ## Project List
 
-1. **Capture Login Credentials using Wireshark & Netsniff-ng in Kali Linux**
+1. [Capture Login Credentials using Wireshark & Netsniff-ng in Kali Linux](#)
 
 ## Project Details
 
-**Objective:** The goal of this project is to demonstrate the process of capturing login credentials using Wireshark and Netsniff-ng in Kali Linux. This hands-on exercise aims to enhance your understanding of network traffic analysis and security.
-
-**Steps:**
-
-1. **Setting Up the Environment:**
-   - Ensure you have Kali Linux installed as the host OS.
-   - Install Wireshark and Netsniff-ng on your Kali Linux system.
-
-2. **Capturing Network Traffic:**
-   - Use Wireshark to capture network traffic on the target system.
-   - Employ Netsniff-ng for additional packet capture capabilities.
-
-3. **Analyzing Login Sessions:**
-   - Filter captured packets to focus on login sessions.
-   - Explore Wireshark features for a detailed analysis of login credentials.
-
-4. **Documentation:**
-   - Document your findings and the steps taken during the analysis.
-   - Include screenshots and details of captured login credentials.
-
-5. **Reflection:**
-   - Reflect on the importance of secure login practices.
-   - Consider potential countermeasures to protect against credential capture.
+1. The goal of this project is to demonstrate the process of capturing login credentials using Wireshark and Netsniff-ng in Kali Linux. This hands-on exercise aims to dissect the dynamics of network traffic analysis and security. In this project, I explored the process of capturing login credentials using Wireshark and Netsniff-ng in Kali Linux. It was a hands-on experience aimed at deepening my understanding of network traffic analysis and security practices.
 
 ### Resources Used
 
