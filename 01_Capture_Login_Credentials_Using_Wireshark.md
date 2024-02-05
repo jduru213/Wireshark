@@ -29,30 +29,37 @@ Vulweb.com is an educational platform that helps users learn about web applicati
 While Netsniff is running in the background, open your web browser on Kali: 
 
 - Search Vulnweb.com and click on the Acuforum URL
+  
 ![image](https://github.com/jduru213/Wireshark-HomeLabs/assets/112328773/7f3d9731-f583-4ab6-ae89-295708fbe294)
 
 
 ## Step 3: Login 
 - Once you click on the Acuforum URL, you should be navigated to a page. At the top of the page click the "login" tab
+  
 ![image](https://github.com/jduru213/Wireshark-HomeLabs/assets/112328773/8cb33f77-6097-44d9-b3bf-fe8ef2b16f86)
 ![image](https://github.com/jduru213/Wireshark-HomeLabs/assets/112328773/0ade0a5b-64b3-47ac-bf14-b011832d26c3)
 
 - Once you get to the login page, type in any username or password of your choice
-  P.S If it says invalid login that's fine, we are just trying to capture the credentials  
+  P.S If it says invalid login that's fine, we are just trying to capture the credentials
+  
 ![image](https://github.com/jduru213/Wireshark-HomeLabs/assets/112328773/8570d6b7-80e6-4903-8839-6932c67cb5e2)
 
 
 ## Step 4: Configuring Wireshark and open .pcap file 
 -  Now, stop capturing packets by clicking Ctrl + C and see how many packets you generated
--  Generated 2704 packets 
+-  Generated 2704 packets
+- 
   ![image](https://github.com/jduru213/Wireshark-HomeLabs/assets/112328773/96051a91-eac6-4fbe-a03b-d546e0589092)
 
 -  Go back to your Kali linux terminal run the "ls" command and find your .pcap file
+- 
  ![image](https://github.com/jduru213/Wireshark-HomeLabs/assets/112328773/217fa474-9e23-4d75-afb7-cfc04a936678)
 
 
--  Run Wireshark by typing in "Wireshark" in your kali terminal  
-  ![image](https://github.com/jduru213/Wireshark-HomeLabs/assets/112328773/e5a3b83b-a0ca-4500-919d-5f09121ab8e2)![image](https://github.com/jduru213/Wireshark-HomeLabs/assets/112328773/9d56626f-98b8-4a73-8168-7a29916d187d)
+-  Run Wireshark by typing in "Wireshark" in your kali terminal
+  
+  ![image](https://github.com/jduru213/Wireshark-HomeLabs/assets/112328773/e5a3b83b-a0ca-4500-919d-5f09121ab8e2)
+  ![image](https://github.com/jduru213/Wireshark-HomeLabs/assets/112328773/9d56626f-98b8-4a73-8168-7a29916d187d)
 
 
 - Next, when wireshark is open Go to File → Open → \home\kali directory → <yourfilenaem>.pcap file → Open or simply type in your file name in the "Files of type" search bar 
