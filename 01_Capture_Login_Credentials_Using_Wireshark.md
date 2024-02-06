@@ -15,6 +15,7 @@ We are creating one solely because the .pcap file facilitates replay and simulat
 netsniff-ng --in eth0 --out <yourfilename>.pcap
    ```
 ![image](https://github.com/jduru213/Wireshark-HomeLabs/assets/112328773/7f94ff87-ceb0-476a-96fc-c1e6283ded1f)
+
 ![image](https://github.com/jduru213/Wireshark-HomeLabs/assets/112328773/bd91d307-51d0-4fc2-bbf6-da252dfd2d2f)
 
 
