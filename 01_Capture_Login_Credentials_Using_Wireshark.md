@@ -1,18 +1,14 @@
 ## Capture Login Credentials Using Wireshark & Netsniff-ng in Kali Linux
 Welcome to a hands-on exploration of capturing login credentials using Wireshark and Netsniff-ng  in Kali Linux! In this lab project, I will guide you through the step-by-step process of scanning, filtering, and capturing credentials within my network.
 
-## Getting Started 
-
-- Install VMware 
-- Download https://www.kali.org/
 
 ## Step 1: Initiation of Netsniff-ng 
 
 ### What is a .pcap file and why are we creating one?
 
-The binary file format known as ".pcap" (Packet Capture) is used to store network packet data that is obtained during network traffic analysis.
+The binary file format known as ".pcap" (Packet Capture) stores network packet data obtained during network traffic analysis.
 
-The reason we are creating one is solely because the .pcap file facilitates replay and simulation for testing, and troubleshooting network issues, and serves educational purposes by providing real-world scenarios for learning about network security.  
+We are creating one solely because the .pcap file facilitates replay and simulation for testing and troubleshooting network issues, and serves educational purposes by providing real-world scenarios for learning about network security.  
 
 # Here is the command to initialize netsniff
  ```bash
@@ -57,7 +53,7 @@ While Netsniff is running in the background, open your web browser on Kali:
  ![image](https://github.com/jduru213/Wireshark-HomeLabs/assets/112328773/217fa474-9e23-4d75-afb7-cfc04a936678)
 
 
--  Run Wireshark by typing in "Wireshark" in your kali terminal:
+-  Run Wireshark by typing in "Wireshark" in your Kali terminal:
   
   ![image](https://github.com/jduru213/Wireshark-HomeLabs/assets/112328773/e5a3b83b-a0ca-4500-919d-5f09121ab8e2)
   ![image](https://github.com/jduru213/Wireshark-HomeLabs/assets/112328773/9d56626f-98b8-4a73-8168-7a29916d187d)
@@ -71,7 +67,7 @@ While Netsniff is running in the background, open your web browser on Kali:
 
 
 ## Step 5: Filtering Packets for credentials
-To find the intercepted password and username, we must filter HTTP packets by typing “HTTP”. The packet we are searching for is a POST request. A POST request is an HTTP method used for sending data to a server to create or update a resource on said server
+We must filter HTTP packets by typing “HTTP” to find the intercepted password and username. The packet we are searching for is a POST request. A POST request is an HTTP method used for sending data to a server to create or update a resource on said server
 
 P.S Most websites will not transfer data through HTTP since it is unencrypted and therefore insecure, this is solely for practice purposes to learn how to filter and analyze your network 
 
