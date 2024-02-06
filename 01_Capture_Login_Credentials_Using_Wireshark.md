@@ -71,21 +71,19 @@ While Netsniff is running in the background, open your web browser on Kali:
 
 
 ## Step 5: Filtering Packets for credentials
-To find the password and username that were intercepted, we must filter HTTP packets by typing “HTTP”. The packet we are searching for is a POST request. A POST request is an HTTP method used for sending data to a server to create or update a resource on said server
+To find the intercepted password and username, we must filter HTTP packets by typing “HTTP”. The packet we are searching for is a POST request. A POST request is an HTTP method used for sending data to a server to create or update a resource on said server
 
 P.S Most websites will not transfer data through HTTP since it is unencrypted and therefore insecure, this is solely for practice purposes to learn how to filter and analyze your network 
 
 - First, let's type in "HTTP" in the search bar to filter out the network protocol
   ![image](https://github.com/jduru213/Wireshark-HomeLabs/assets/112328773/6662a79a-9696-4e46-bb66-619fd3dd1730)
   
-- Now,
+- Now, double-click the packet to open 
   
   ![image](https://github.com/jduru213/Wireshark-HomeLabs/assets/112328773/3b40e100-b4c9-45fa-b818-06ee75a2ae0a)
   
-- Lastly,
-  
-  ![image](https://github.com/jduru213/Wireshark-HomeLabs/assets/112328773/9a7997b9-416c-4c2a-b885-baf5b5dded56)
+- Lastly, scroll to the very bottom where it says HTML form URL encoded and find the form item saying "tfUName" & "tfUPass"  
 
-To conclude, 
+![image](https://github.com/jduru213/Wireshark-HomeLabs/assets/112328773/dc3f56f2-6dc0-4c5f-93d3-39157c7e353c)
 
- 
+To wrap it up, this project illuminates the vulnerabilities associated with unprotected communication routes, which I actively conducted. Through my investigation into the collection of login credentials in Kali Linux, I have identified possible hazards utilizing programs like Wireshark and NetSNIFF. The lesson highlights how critical it is to put strong cybersecurity safeguards in place as soon as possible to protect sensitive data, including encryption and close monitoring.
