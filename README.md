@@ -5,7 +5,7 @@ This repository is a collection of hands-on projects utilizing Wireshark to scan
 
 ## Project List
 
-1. [Capture Login Credentials using Wireshark & Netsniff-ng in Kali Linux](#)https://github.com/jduru213/Wireshark-HomeLabs/blob/main/01_Capture_Login_Credentials_Using_Wireshark.md
+1. [Capture Login Credentials using Wireshark & Netsniff-ng in Kali Linux](#)(https://github.com/jduru213/Wireshark-HomeLabs/blob/main/01_Capture_Login_Credentials_Using_Wireshark.md)
 
 ## Project Details
 
